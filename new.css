@@ -61,3 +61,16 @@ footer {
 button {
     padding: 10px 10px 10px 10px;
 }
+
+@media screen and (max-width: 768px) {
+  img {
+    max-width: 100%; /* Ensure image doesn't exceed container width */
+  }
+}
+
+/* Further adjust for very small screens (e.g., phones in portrait) */
+@media screen and (max-width: 480px) {
+  img {
+    max-width: 60%; /* Optionally reduce size on very small screens */
+  }
+}
